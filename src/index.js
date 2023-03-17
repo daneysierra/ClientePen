@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-// axios.default.baseURL = 'http:/localhost:3001';
-axios.default.baseURL = 'https://back-production-987e.up.railway.app/';
+//axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://back-production-987e.up.railway.app/';
 
 ReactDOM.render(
   <React.StrictMode>
